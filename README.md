@@ -4,6 +4,13 @@
 
 This front-end service focuses on displaying/scoring learner competencies as well as visualising the data. 
 
+## Video
+
+
+https://github.com/user-attachments/assets/e1378872-7a4e-445d-9cec-0a840f293a19
+
+
+
 ## How to Run Locally
 
 Please do not hesitate to get in touch in case of any questions. No config or env variables required to run the app
