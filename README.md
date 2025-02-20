@@ -1,42 +1,66 @@
-# competency-tracker
+# Compy Tracker
 
-This template should help get you started developing with Vue 3 in Vite.
+## Description
 
-## Recommended IDE Setup
+This front-end service focuses on displaying/scoring learner competencies as well as visualising the data. 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## How to Run Locally
 
-## Type Support for `.vue` Imports in TS
+Please do not hesitate to get in touch in case of any questions. No config or env variables required to run the app
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+To spin up the project locally, follow these steps:
 
-## Customize configuration
+1. Clone the repository:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+```
+git clone https://github.com/nikremenskovs/compy-tracker.git
+```
 
-## Project Setup
+2. Navigate to the project directory:
 
-```sh
+```
+cd compy-tracker
+```
+
+3. Install the project dependencies:
+
+```
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+4. Start the development server:
 
-```sh
+```
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+5. To run Unit Tests:
 
-```sh
-npm run build
 ```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
 npm run test:unit
 ```
+
+## Future improvements/roadmap
+
+- Improve responsiveness to cater for different devices
+- More unit tests
+- Toggle sort for data table
+- Scroll to top button
+- Minify learner info button
+- Improving toast notification, e.g. queuing or stacking + style
+- Transitions/Animations
+- Optimise search
+- End-to-end test
+
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request.
+
+## License
+
+_Compy Tracker_ is open-source and released under the [MIT License](LICENSE).
+
 
 ### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
 
