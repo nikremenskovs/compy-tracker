@@ -67,20 +67,3 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 ## License
 
 _Compy Tracker_ is open-source and released under the [MIT License](LICENSE).
-
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
