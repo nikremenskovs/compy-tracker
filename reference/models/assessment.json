@@ -1,0 +1,16 @@
+[
+    {
+        "competencyId": 42,
+        "assessorId": 1,
+        "assessorType": "learner",
+        "score": 4,
+        "submittedAt": "2024-26-01T00:00:00Z"
+    },
+    {
+        "competencyId": 42,
+        "assessorId": 112,
+        "assessorType": "trainer",
+        "score": 3,
+        "submittedAt": "2024-02-10T00:00:00Z"
+    }
+]

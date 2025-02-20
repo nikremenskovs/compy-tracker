@@ -1,0 +1,4 @@
+<template>
+  <HelpGuide />
+  <HelpSupport />
+</template>
