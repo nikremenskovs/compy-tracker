@@ -2,7 +2,7 @@
 
 ## Description
 
-This front-end service focuses on displaying/scoring learner competencies as well as visualising the data. 
+This front-end service focuses on displaying/scoring learner competencies as well as visualising data.
 
 ## Video
 
@@ -46,6 +46,22 @@ npm run dev
 ```
 npm run test:unit
 ```
+
+## Tech Stack/tools/sources
+
+- NPM: used to manage and install packages and dependencies
+- Typescript: Superset of JavaScript that adds static typing and other features to enhance code quality, maintainability, and developer productivity
+- Vue 3 (Composition API): A JavaScript framework for SPAs
+- Pinia: A state management pattern and library for Vue.js applications
+- Vue Router: official Vue.js library that provides navigation/routing capabilities
+- VueUse: composable/utility library providing commonly used functionalities
+- Vuetify 3: Material Design component framework for building responsive and visually consistent web applications
+- Vitest: Testing framework for Vue 3 and JavaScript applications
+- Chart.js: Library for creating interactive and customisable charts and graphs
+- Vue-chartjs:  Vue wrapper for Chart.js that simplifies chart integration
+- Faker.js: Library for generating realistic fake data for testing and development
+- MSW: Mock Service Worker library for API mocking and request interception during development and testing
+- MDI-Icons: Material Design Icons library providing a comprehensive set of scalable vector icons
 
 ## Future improvements/roadmap
 
